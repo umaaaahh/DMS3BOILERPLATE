@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <title>Boilerplate</title>
+
+    <link rel="Stylesheet" href="style.css" />
+
+    <script src="'script.js" defer></script>
+  </head>
+  <body>
+    <h1>Welcome to my webpage!</h1>
+    <p>Hello world, this is me-e life can be oh yeah fun for everyone.</p>
+  </body>
+</html>
