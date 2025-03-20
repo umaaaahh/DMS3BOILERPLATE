@@ -10,7 +10,29 @@
     <script src="'script.js" defer></script>
   </head>
   <body>
-    <h1>Welcome to my webpage!</h1>
-    <p>Hello world, this is me-e life can be oh yeah fun for everyone.</p>
+    <h1>Boiler Plate</h1>
+    <h4>By Uma Bridges</h4>
+    <p>Im lost... (O_O)</p>
+    <h2>Research Question</h2>
+    <h3>Question 1</h3>
+    <p>Response to question </p>
+    <h3>Question 2</h3>
+    <p>Response to question </p>
+    <h3>Question 3</h3>
+    <p>Response to question </p>
+    <h3>Question 4</h3>
+    <p>Response to question </p>
+    <h3>Question 5</h3>
+    <p>Response to question </p>
+    <h3>Question 6</h3>
+    <p>Response to question </p>
+    <h3>Question 7</h3>
+    <p>Response to question </p>
+    <h3>Question 8</h3>
+    <p>Response to question </p>
+    <h3>Question 9</h3>
+    <p>Response to question </p>
+    <h3>Question 10</h3>
+    <p>Response to question </p>
   </body>
 </html>
