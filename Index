@@ -4,35 +4,62 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
     <title>Boilerplate</title>
-
-    <link rel="Stylesheet" href="style.css" />
-
-    <script src="'script.js" defer></script>
   </head>
   <body>
-    <h1>Boiler Plate</h1>
-    <h4>By Uma Bridges</h4>
-    <p>Im lost... (O_O)</p>
-    <h2>Research Question</h2>
-    <h3>Question 1</h3>
-    <p>Response to question </p>
-    <h3>Question 2</h3>
-    <p>Response to question </p>
-    <h3>Question 3</h3>
-    <p>Response to question </p>
-    <h3>Question 4</h3>
-    <p>Response to question </p>
-    <h3>Question 5</h3>
-    <p>Response to question </p>
-    <h3>Question 6</h3>
-    <p>Response to question </p>
-    <h3>Question 7</h3>
-    <p>Response to question </p>
-    <h3>Question 8</h3>
-    <p>Response to question </p>
-    <h3>Question 9</h3>
-    <p>Response to question </p>
-    <h3>Question 10</h3>
-    <p>Response to question </p>
+    <button>Button</button>
+    <div class="title-bar">
+      <div class="title-bar-text">A Title Bar</div>
+      <div class="title-bar-controls">
+        <button aria-label="Close"></button>
+      </div>
+    </div>
+    <div class="box">
+      <h1>Boiler Plate</h1>
+      <h4>By Uma Bridges</h4>
+      <p>Im lost... (O_O)</p>
+    </div>
+    <div class="box">
+      <h2>Research Question</h2>
+    </div>
+    <div class="box">
+      <h3>Question 1</h3>
+      <p>Response to question</p>
+    </div>
+    <div class="box">
+      <h3>Question 2</h3>
+      <p>Response to question</p>
+    </div>
+    <div class="box">
+      <h3>Question 3</h3>
+      <p>Response to question</p>
+    </div>
+    <div class="box">
+      <h3>Question 4</h3>
+      <p>Response to question</p>
+    </div>
+    <div class="box">
+      <h3>Question 5</h3>
+      <p>Response to question</p>
+    </div>
+    <div class="box">
+      <h3>Question 6</h3>
+      <p>Response to question</p>
+    </div>
+    <div class="box">
+      <h3>Question 7</h3>
+      <p>Response to question</p>
+    </div>
+    <div class="box">
+      <h3>Question 8</h3>
+      <p>Response to question</p>
+    </div>
+    <div class="box">
+      <h3>Question 9</h3>
+      <p>Response to question</p>
+    </div>
+    <div class="box">
+      <h3>Question 10</h3>
+      <p>Response to question</p>
+    </div>
   </body>
 </html>
