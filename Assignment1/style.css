@@ -1,0 +1,62 @@
+:root {
+    --clr-dark: #0f172a;
+    --clr-light: #f1f5f9;
+    --clr-accent: #e11d48;
+  }
+  
+  body {
+    margin: 0 0 0 0;
+    padding: 0;
+    line-height: 1.6;
+    word-spacing: 1.4px;
+    font-family: 'Roboto', sans-serif;
+    color: var(--clr-dark);
+    background-color: var(--clr-light);
+    background-image: url('../images/go_here.png');
+    background-repeat:repeat-x;
+    background-attachment:fixed;
+    background-position: left top;
+    position:absolute;
+    height:610px
+    width: ?px;
+    margin:0;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: repeat(4, 1fr)
+    width: 90%;
+    margin: 5px;
+    padding: 5px;
+    border: 10px solid var(--clr-dark);
+  }
+
+  .window {
+    box-shadow: var(--border-window-outer), var(--border-window-inner);
+    background: var(--surface);
+    padding: 3px;
+    width: 250px
+  }
+  .item {
+    padding: 0.5em;
+    background-color: #fb7185;
+    font-weight: 700;
+    color: var(--clr-light);
+    border: 10px solid var(--clr-accent);
+  }
+
+  .item1 {
+    grid-row: 1/ 7 ;
+    grid-column: 1 / 7;
+    img {
+        grid-row: 1 / 7;
+        height: 700px;
+        object-fit: contain;
+      }
+  } 
+  .item2 {
+    grid-area: 2 / 4 / 4 / 6 ;
+    z-index: 1;
+  } 
+ 

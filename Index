@@ -4,62 +4,194 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
     <title>Boilerplate</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://unpkg.com/98.css">
+
   </head>
+  
   <body>
-    <button>Button</button>
-    <div class="title-bar">
-      <div class="title-bar-text">A Title Bar</div>
-      <div class="title-bar-controls">
-        <button aria-label="Close"></button>
+    <div class=" titlepage">
+    </div>
+    <!-- TITLE PAGE -->
+    <div class="window">
+      <div class="title-bar">
+        <div class="title-bar-text">ORB.Farm - Software Analysis</div>
+      </div>
+      <div class="window-body">
+        <h1>ORB.Farm</h1>
+        <h2>SoftWARE ANAYLSIS</h2>
+      </div>
+      <div class="status-bar">
+        <p class="status-bar-field">By Uma Bridges</p>
+        <p class="status-bar-field">RMIT</p>
+        <p class="status-bar-field">Bachelor of Design (Digital Media)</p>
       </div>
     </div>
-    <div class="box">
-      <h1>Boiler Plate</h1>
-      <h4>By Uma Bridges</h4>
-      <p>Im lost... (O_O)</p>
+  </div>
+    <!-- LANDING PAGE -->
+    <div class="window">
+      <div class="title-bar">
+        <div class="title-bar-text">ORB.Farm - Software Analysis</div>
+      </div>
+      <div class="window-body">
+        <p>Overview:</p>
+        <br>
+          <ul>
+            <li><a href="#q1">1. What genre of creative software do you believe it belongs to?</a></li>
+            <li><a href="#q2">2. Three other examples of software in this genre</a></li>
+            <li><a href="#q3">3. Interactive features/mechanics</a></li>
+            <li><a href="#q4">4. Features that indicate its genre</a></li>
+            <li><a href="#q5">5. Novel features for its genre</a></li>
+            <li><a href="#q6">6. Missing features or additions</a></li>
+            <li><a href="#q7">7. Target context, community or niche</a></li>
+            <li><a href="#q8">8. What was annoying or boring?</a></li>
+            <li><a href="#q9">9. What was enjoyable?</a></li>
+            <li><a href="#q10">10. Screen Recording</a></li>
+          </ul>
+          <br>
+      </div>
+      <div class="status-bar">
+        <p class="status-bar-field">Uma Bridges</p>
+        <p class="status-bar-field">RMIT</p>
+        <p class="status-bar-field">Bachelor of Design (Digital Media)</p>
+      </div>
     </div>
+    <body>
+      <!-- PAGE 1 -->
+      <div class="window">
+        <div class="title-bar">
+          <div class="title-bar-text">ORB.Farm - 1. What genre of creative software do you believe it belongs to?</div>
+        </div>
+        <div class="window-body">
+      <p>Orb.Farm is a sandbox simulation and artificial life game that allows players to experiment with ecosystem dynamics. It fits into the sandbox genre because it has no fixed goals, and into the simulation genre because it models ecological processes like CO₂ buildup, oxygen depletion, and species interaction. It also qualifies as artificial life software, as users indirectly influence living organisms within a self-contained environment.</p>
+        </div>
+        <div class="status-bar">
+          <p class="status-bar-field">By Uma Bridges</p>
+          <p class="status-bar-field">RMIT</p>
+          <p class="status-bar-field">Bachelor of Design (Digital Media)</p>
+        </div>
     <div class="box">
-      <h2>Research Question</h2>
-    </div>
+       <!-- PAGE 2 -->
+       <div class="window">
+        <div class="title-bar">
+          <div class="title-bar-text">ORB.Farm - 2. List three other examples of software in this genre</div>
+        </div>
+        <div class="window-body">
+          <ul>
+            <li>The Powder Toy – A sandbox physics simulator where users combine elements and observe emergent reactions (Powder Toy, 2023).</li>
+
+           <li>SimLife (1992) – A life simulation game allowing users to create evolving ecosystems and explore genetic variation (Wikipedia, 2023).</li> 
+            
+           <li>EcoSimulator – A browser-based ecosystem model where users manage population variables to maintain environmental balance (ecosimulator.netlify.app).</li> 
+        </ul>
+        </div>
+        <div class="status-bar">
+          <p class="status-bar-field">By Uma Bridges</p>
+          <p class="status-bar-field">RMIT</p>
+          <p class="status-bar-field">Bachelor of Design (Digital Media)</p>
+        </div>
     <div class="box">
-      <h3>Question 1</h3>
-      <p>Response to question</p>
-    </div>
+       <!-- PAGE 2 -->
+       <div class="window">
+        <div class="title-bar">
+          <div class="title-bar-text">ORB.Farm - 2. List three other examples of software in this genre</div>
+        </div>
+        <div class="window-body">
+          <p>heya</p>
+        </div>
+        <div class="status-bar">
+          <p class="status-bar-field">By Uma Bridges</p>
+          <p class="status-bar-field">RMIT</p>
+          <p class="status-bar-field">Bachelor of Design (Digital Media)</p>
+        </div>
     <div class="box">
-      <h3>Question 2</h3>
-      <p>Response to question</p>
-    </div>
+         <!-- PAGE 2 -->
+         <div class="window">
+          <div class="title-bar">
+            <div class="title-bar-text">ORB.Farm - 2. List three other examples of software in this genre</div>
+          </div>
+          <div class="window-body">
+            <p>heya</p>
+          </div>
+          <div class="status-bar">
+            <p class="status-bar-field">By Uma Bridges</p>
+            <p class="status-bar-field">RMIT</p>
+            <p class="status-bar-field">Bachelor of Design (Digital Media)</p>
+          </div>
+      <div class="box">
+           <!-- PAGE 2 -->
+       <div class="window">
+        <div class="title-bar">
+          <div class="title-bar-text">ORB.Farm - 2. List three other examples of software in this genre</div>
+        </div>
+        <div class="window-body">
+          <p>heya</p>
+        </div>
+        <div class="status-bar">
+          <p class="status-bar-field">By Uma Bridges</p>
+          <p class="status-bar-field">RMIT</p>
+          <p class="status-bar-field">Bachelor of Design (Digital Media)</p>
+        </div>
     <div class="box">
-      <h3>Question 3</h3>
-      <p>Response to question</p>
-    </div>
+         <!-- PAGE 2 -->
+         <div class="window">
+          <div class="title-bar">
+            <div class="title-bar-text">ORB.Farm - 2. List three other examples of software in this genre</div>
+          </div>
+          <div class="window-body">
+            <p>heya</p>
+          </div>
+          <div class="status-bar">
+            <p class="status-bar-field">By Uma Bridges</p>
+            <p class="status-bar-field">RMIT</p>
+            <p class="status-bar-field">Bachelor of Design (Digital Media)</p>
+          </div>
+      <div class="box">
+           <!-- PAGE 2 -->
+       <div class="window">
+        <div class="title-bar">
+          <div class="title-bar-text">ORB.Farm - 2. List three other examples of software in this genre</div>
+        </div>
+        <div class="window-body">
+          <p>heya</p>
+        </div>
+        <div class="status-bar">
+          <p class="status-bar-field">By Uma Bridges</p>
+          <p class="status-bar-field">RMIT</p>
+          <p class="status-bar-field">Bachelor of Design (Digital Media)</p>
+        </div>
     <div class="box">
-      <h3>Question 4</h3>
-      <p>Response to question</p>
-    </div>
+         <!-- PAGE 2 -->
+         <div class="window">
+          <div class="title-bar">
+            <div class="title-bar-text">ORB.Farm - 2. List three other examples of software in this genre</div>
+          </div>
+          <div class="window-body">
+            <p>heya</p>
+          </div>
+          <div class="status-bar">
+            <p class="status-bar-field">By Uma Bridges</p>
+            <p class="status-bar-field">RMIT</p>
+            <p class="status-bar-field">Bachelor of Design (Digital Media)</p>
+          </div>
+      <div class="box">
+           <!-- PAGE 2 -->
+       <div class="window">
+        <div class="title-bar">
+          <div class="title-bar-text">ORB.Farm - 2. List three other examples of software in this genre</div>
+        </div>
+        <div class="window-body">
+          <p>heya</p>
+        </div>
+        <div class="status-bar">
+          <p class="status-bar-field">By Uma Bridges</p>
+          <p class="status-bar-field">RMIT</p>
+          <p class="status-bar-field">Bachelor of Design (Digital Media)</p>
+        </div>
     <div class="box">
-      <h3>Question 5</h3>
-      <p>Response to question</p>
-    </div>
-    <div class="box">
-      <h3>Question 6</h3>
-      <p>Response to question</p>
-    </div>
-    <div class="box">
-      <h3>Question 7</h3>
-      <p>Response to question</p>
-    </div>
-    <div class="box">
-      <h3>Question 8</h3>
-      <p>Response to question</p>
-    </div>
-    <div class="box">
-      <h3>Question 9</h3>
-      <p>Response to question</p>
-    </div>
-    <div class="box">
-      <h3>Question 10</h3>
-      <p>Response to question</p>
-    </div>
+      
+      
+   
+   
   </body>
 </html>
