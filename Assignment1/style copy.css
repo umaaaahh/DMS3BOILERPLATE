@@ -5,28 +5,37 @@
   --button-face: #dfdfdf;
   --button-shadow: #808080;
   --window-frame: #0a0a0a;
-  --dialog-blue: #000080;
-  --dialog-blue-light: #1084d0;
+  --dialog-blue: #fc07be;
+  --dialog-blue-light: #46d010;
   --dialog-gray: #808080;
   --dialog-gray-light: #b5b5b5;
   --link-blue: #0000ff;
   --clr-dark: #000000;
   --clr-light: #e0e0e0;
+
+  /* Borders */
+  --border-width: 1px;
+  --border-raised-outer: inset -1px -1px var(--window-frame),
+    inset 1px 1px var(--button-highlight);
+  --border-raised-inner: inset -2px -2px var(--button-shadow),
+    inset 2px 2px var(--button-face);
+  --border-sunken-outer: inset -1px -1px var(--button-highlight),
+    inset 1px 1px var(--window-frame);
+  --border-sunken-inner: inset -2px -2px var(--button-face),
+    inset 2px 2px var(--button-shadow);
+
+  /* Window borders flip button-face and button-highlight */
+  --border-window-outer: inset -1px -1px var(--window-frame),
+    inset 1px 1px var(--button-face);
+  --border-window-inner: inset -2px -2px var(--button-shadow),
+    inset 2px 2px var(--button-highlight);
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  /* margin: 0 0 0 0;
-    padding: 0;
-    line-height: 1.6;
-    word-spacing: 1.4px;
-    font-family: 'Roboto', sans-serif;
-    color: var(--clr-dark);
-    background-color: var(--clr-light);
-    background-image: url('sky\ box.gif');
-    background-attachment:fixed;
-    background-size: cover;
-    background-position: left top;
-    position: absolute; */
   margin: 0;
   padding: 0;
   min-height: 100vh;
@@ -39,31 +48,9 @@ body {
   background-size: cover;
   background-attachment: fixed;
   background-position: top left;
-  font-family: "Roboto", sans-serif;
-  /* height:100%;
-    width: 100%;
-    margin:0; */
 }
 
-/* .container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
-    justify-content: center;
-    gap: 40px;
-    padding: 50px;
-    /* grid-template-columns: repeat(3, 1fr); */
-/* grid-template-columns: repeat(6, 1fr);
-    grid-template-columns: 3; */
-/* width: 90%;
-    margin: 5px;
-    padding: 5px;
-    border: 10px solid var(--clr-dark); */
-/* min-height: 100vh;
-    /* margin-right: -50%; */
-/* margin: 50%;
-    margin-bottom: 50px;
-    margin-top: 50px; */
-*/ .container {
+.container {
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -72,6 +59,7 @@ body {
   max-width: 100%;
   padding: 20px;
 }
+
 /* Title Page layout */
 .title-flex {
   display: flex;
@@ -97,56 +85,6 @@ body {
 .title-text p {
   margin-top: 10px;
 }
-
-html {
-  scroll-behavior: smooth;
-}
-/* navigation */
-/* menu.multirows {
-  margin-top: 10px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 4px;
-}
-
-menu.multirows li a {
-  padding: 4px 8px;
-  display: inline-block;
-  background: var(--button-face);
-  border: 1px solid var(--button-shadow);
-  box-shadow: inset -1px -1px var(--button-highlight), inset 1px 1px var(--button-shadow);
-  color: black;
-  text-decoration: none;
-}
-
-menu.multirows li a:hover {
-  background: var(--button-highlight);
-} */
-
-/* Q2 layout: Comparable Software section */
-/* .comparison-flex {
-  display: flex;
-  gap: 30px;
-  flex-wrap: wrap; Responsive fallback 
-}
-
-.comparison-flex ul {
-  flex: 1;
-  list-style-position: inside;
-  padding-left: 0;
-}
-
-.comparison-flex .image-stack {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-.comparison-flex .image-stack img {
-  width: 100%;
-  border: 1px solid #000;
-} */
 
 /* Comparison section layout */
 .comparison-entry {
@@ -174,11 +112,8 @@ menu.multirows li a:hover {
   /* use items for position in grid only */
   margin-top: 250px;
   margin-bottom: 500px;
-
-  /* display: flex;
-justify-content: center;
-align-items: center; */
 }
+
 .item2 {
   /* use items for position in grid only */
   margin-top: 500px;
@@ -255,21 +190,6 @@ h4 {
   font-size: 1.2rem;
   margin: 5px 0;
 }
-/* h1 {
-  font-size: 5rem;
-}
-
-h2 {
-  font-size: 2.5rem;
-}
-
-h3 {
-  font-size: 2rem;
-}
-
-h4 {
-  font-size: 1.5rem;
-} */
 
 u {
   text-decoration: none;

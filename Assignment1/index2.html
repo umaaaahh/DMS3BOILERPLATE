@@ -4,7 +4,9 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Assignment 1</title>
-        <link rel="stylesheet" href="style.css">
+        <!-- <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style copy.css"> -->
+        <link rel="stylesheet" href="style copy 2.css">
     </head>
 <body>
     <div class="container" >
@@ -20,7 +22,6 @@
                         <img src="daphniaAlpha.gif" alt="daphnia" style="width: 100%; margin-top: 10px;">
 
                             <div class="title-text">
-                            
                                 <h1>ORB.Farm</h1>
                                 <h2>Software Analysis</h2>
 
@@ -30,15 +31,17 @@
                                 <h4>Mediated Expression: Interaction design in creative tool making</h4>
 
                                 <br>
-
                             </div>
                     </div>
+                <div class="gif-bar">
+                    <img src="daphniaAlpha.gif" alt="gif1">
+                    <img src="daphniaAlpha.gif" class="flipped" alt="gif2">
+                </div>
                 <div class="status-bar">
                     <p class="status-bar-field">By Uma Bridges</p>
                     <p class="status-bar-field">RMIT</p>
                     <p class="status-bar-field">Bachelor of Design (Digital Media)</p>
                 </div>
-
             </div>
         </div>
         </header>   
@@ -51,10 +54,13 @@
                     <div class="window-body">
                     
                         <img src="sand.gif" alt="daphnia" style="width: 100%; margin-top: 10px;">
-
-                        <h3>This web-based software falls under the sandbox game genre, while operating within the framework of an ecosystem life simulator software.</h3>
-                    
+                        <p><strong>Genre:</strong> Sandbox Simulation, Artificial Life, Digital Toy</p>
+                        <p><strong>Classification:</strong> A web-based interactive ecosystem simulator with a pixel-based interface, open-ended objectives, and indirect control mechanics. Designed for casual experimentation and emergent environmental balance.</p>
                     </div>
+                <div class="gif-bar">
+                    <img src="daphniaAlpha.gif" alt="gif1">
+                    <img src="daphniaAlpha.gif" class="flipped" alt="gif2">
+                </div>
                 <div class="status-bar">
                     <p class="status-bar-field">By Uma Bridges</p>
                     <p class="status-bar-field">RMIT</p>
@@ -87,6 +93,10 @@
                             <p><strong>EcoSimulator</strong> - A browser-based ecosystem model where users manage population variables to maintain environmental balance (ecosimulator.netlify.app).</p>
                         </div>
                     </div>
+                <div class="gif-bar">
+                    <img src="daphniaAlpha.gif" alt="gif1">
+                    <img src="daphniaAlpha.gif" class="flipped" alt="gif2">
+                </div>
                 <div class="status-bar">
                     <p class="status-bar-field">By Uma Bridges</p>
                     <p class="status-bar-field">RMIT</p>
@@ -102,19 +112,85 @@
                     <div class="title-bar-text">ORB.Farm - Core Interactions & Mechanics </div>
                 </div>
                     <div class="window-body">
-                        <p>List the program's interactive features/mechanics</p>
-                        <ul>
-                            <li>Element Placement - Users can click to place materials like sand, stone, wood, water, and grass into the tank.</li>
-                             <li>Species Introduction - Users can introduce living organisms such as daphnia, bacteria, fish, and goldfish by clicking on them from the menu.</li>
-                            <li>Waste Decomposition - Bacteria break down organic waste over time, helping maintain the ecosystem's balance.</li>
-                            <li>Oxygen and CO₂ Levels - The environment dynamically tracks oxygen and CO₂ levels, which affect the survival of organisms</li>
-                            <li>Day-Night Cycle - The background transitions from light to dark in a continuous loop, indicating the passage of time.</li>
-                            <li>Fast-Forward Button - Players can click to accelerate time and speed up ecological interactions.</li>
-                            <li>Clear Tool - The clear tool removes everything around the cursor area, including organisms, plants, and parts of the tank.</li>
-                            <li>Reset Button - Players can click to reset the entire ecosystem and start over from scratch.</li>
-                            <li>Pixel-Based Interaction - All interactions occur through a pixel-grid interface, with players clicking directly into the visual tank environment.</li>
-
+                        <ul class="tree-view">
+                            <li><strong>ORB.Farms Interactive Features & Mechanics:</strong></li>
+                            <li>
+                                <details>
+                                <summary>Element Placement</summary>
+                                <ul>
+                                    <li>Click to place materials like sand, stone, wood, water, and grass.</li>
+                                </ul>
+                                </details>
+                            </li>
+                            <li>
+                                <details>
+                                <summary>Species Introduction</summary>
+                                <ul>
+                                    <li>Add organisms: daphnia, bacteria, fish, and goldfish via the menu.</li>
+                                </ul>
+                                </details>
+                            </li>
+                            <li>
+                                <details>
+                                <summary>Waste Decomposition</summary>
+                                <ul>
+                                    <li>Bacteria break down organic waste to maintain balance.</li>
+                                </ul>
+                                </details>
+                            </li>
+                            <li>
+                                <details>
+                                <summary>Oxygen and CO₂ Levels</summary>
+                                <ul>
+                                    <li>Tracked dynamically; affects organism survival.</li>
+                                </ul>
+                                </details>
+                            </li>
+                            <li>
+                                <details>
+                                <summary>Day-Night Cycle</summary>
+                                <ul>
+                                    <li>Visual shift from light to dark in a loop.</li>
+                                </ul>
+                                </details>
+                            </li>
+                            <li>
+                                <details>
+                                <summary>Fast-Forward Button</summary>
+                                <ul>
+                                    <li>Accelerates time to speed up interactions.</li>
+                                </ul>
+                                </details>
+                            </li>
+                            <li>
+                                <details>
+                                <summary>Clear Tool</summary>
+                                <ul>
+                                    <li>Deletes everything near the cursor — plants, organisms, tank parts.</li>
+                                </ul>
+                                </details>
+                            </li>
+                            <li>
+                                <details>
+                                <summary>Reset Button</summary>
+                                <ul>
+                                    <li>Resets the tank completely to start over.</li>
+                                </ul>
+                                </details>
+                            </li>
+                            <li>
+                                <details>
+                                <summary>Pixel-Based Interaction</summary>
+                                <ul>
+                                    <li>Everything is controlled directly in the pixel-grid tank interface.</li>
+                                </ul>
+                                </details>
+                            </li>
                         </ul>
+                    </div>
+                    <div class="gif-bar">
+                        <img src="daphniaAlpha.gif" alt="gif1">
+                        <img src="daphniaAlpha.gif" class="flipped" alt="gif2">
                     </div>
                 <div class="status-bar">
                     <p class="status-bar-field">By Uma Bridges</p>
@@ -136,6 +212,10 @@
                 
                         <p><strong><a href="https://jdan.github.io/98.css/" target="_blank">98.css</a></strong>, a CSS library by jdan, is used in <em>Orb.Farm</em> to mimic the look of Windows 98 interface elements.</p>
                     </div>
+                    <div class="gif-bar">
+                        <img src="daphniaAlpha.gif" alt="gif1">
+                        <img src="daphniaAlpha.gif" class="flipped" alt="gif2">
+                    </div>
                 <div class="status-bar">
                     <p class="status-bar-field">By Uma Bridges</p>
                     <p class="status-bar-field">RMIT</p>
@@ -150,17 +230,63 @@
                     <div class="title-bar-text"> ORB.Farm - Genre-Defining Features </div>
                 </div>
                     <div class="window-body">
-                        <h4>Feautures & Mechanics Indicative of Genre Conventions:</h4>
-
-                        <ul>
-                           <li><strong>Set Objectives</strong> - The game has no win condition, aligning it with sandbox genre conventions that promote open-ended play.</li>
-                           <li><strong>Environmental Simulation</strong> - It simulates oxygen and CO₂ levels, waste buildup, and organism survival, fitting within ecosystem simulation norms.</li>
-                           <li><strong>Rule-Based Organism Behavior</strong> - All lifeforms act according to simple, predefined rules, a staple of artificial life simulations.</li>
-                           <li><strong>Cause-and-Effect Interactions</strong> - Actions like overpopulating fish or removing plants visibly impact the system, reflecting simulation logic.</li>
-                           <li><strong>Emergent System Balance</strong> - Stability emerges (or collapses) from user input rather than being scripted, reinforcing the sandbox and A-Life design.</li>
-                           <li><strong>Click-Based Interface</strong> - The simple, interaction-by-click UI fits within digital toy conventions designed for casual experimentation.</li>
-                       </ul>
+                        <ul class="tree-view">
+                            <li><strong>Features & Mechanics Indicative of Genre Conventions:</strong></li>
+                        <li>
+                            <details>
+                            <summary>Set Objectives</summary>
+                                <ul>
+                                    <li>The game has no win condition, aligning it with sandbox genre conventions that promote open-ended play.</li>
+                                </ul> 
+                            </details>
+                        </li>
+                        <li>
+                            <details> 
+                            <summary>Environmental Simulation</summary>
+                                <ul>
+                                    <li>It simulates oxygen and CO₂ levels, waste buildup, and organism survival, fitting within ecosystem simulation norms.</li>
+                                </ul>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                            <summary>Rule-Based Organism Behavior</summary>
+                                <ul>
+                                    <li>All lifeforms act according to simple, predefined rules, a staple of artificial life simulations.</li>
+                                </ul>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                            <summary>Cause-and-Effect Interactions</summary>
+                                <ul>
+                                    <li>Actions like overpopulating fish or removing plants visibly impact the system, reflecting simulation logic.</li>
+                                </ul>
+                            
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                            <summary>Emergent System Balance</summary>
+                            <ul>
+                                <li>Stability emerges (or collapses) from user input rather than being scripted, reinforcing the sandbox and A-Life design.</li>
+                            </ul>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                            <summary>Click-Based Interface</summary>
+                            <ul>
+                                <li>The simple, interaction-by-click UI fits within digital toy conventions designed for casual experimentation.</li>
+                            </ul>
+                            </details>
+                        </li>
+                        </ul>
                      </div>
+                <div class="gif-bar">
+                    <img src="daphniaAlpha.gif" alt="gif1">
+                     <img src="daphniaAlpha.gif" class="flipped" alt="gif2">
+                </div>
                 <div class="status-bar">
                     <p class="status-bar-field">By Uma Bridges</p>
                     <p class="status-bar-field">RMIT</p>
@@ -175,16 +301,49 @@
                     <div class="title-bar-text"> ORB.Farm - Novel Features </div>
                 </div>
                     <div class="window-body">
-                        <h4>Notable Novel Features & Mechanic:</h4>
+                        <ul class="tree-view">
+                        <li><strong>Novel Features & Mechanics:</strong></li>
+                        <li>
+                            <details>
+                            <summary><strong>Circular Tank Design</strong></summary>
+                            <p>Most sandbox simulations use rectangular or open environments, but Orb.Farm limits interaction to a contained circular space, which changes how waste, organisms, and materials settle and interact.</p>
+                            </details>
+                        </li>
 
-                        <ul>
-                            <li><strong>Circular Tank Design</strong> - Most sandbox simulations use rectangular or open environments, but Orb.Farm limits interaction to a contained circular space, which changes how waste, organisms, and materials settle and interact.</li>
-                            <li><strong>Windows 98-Inspired UI (98.css)</strong> - The use of a retro operating system aesthetic isn't just visual; it evokes a digital toy feel and sets it apart from other ecosystem simulators with modern or minimal interfaces.</li>
-                            <li><strong>Indirect Ecosystem Management</strong> - Unlike simulations where players control species directly, Orb.Farm only allows users to influence the environment, requiring more abstract thinking to maintain balance.</li>
-                            <li><strong>Simplified but Functional Chemistry & Day-Night Cycle</strong> - Oxygen and CO₂ levels are visually tracked in real time, and although simplified, they have direct effects on life and decay—an elegant representation of complex systems through minimal data.</li>
-                            <li><strong>Waste as a Physical Element</strong> - Waste accumulates visibly and physically in the environment, sometimes getting trapped in corners or behind obstacles, which adds an extra layer of spatial problem-solving not common in most A-Life simulators.</li>
+                        <li>
+                            <details>
+                            <summary><strong>Windows 98-Inspired UI (98.css)</strong></summary>
+                            <p>The use of a retro operating system aesthetic isn't just visual; it evokes a digital toy feel and sets it apart from other ecosystem simulators with modern or minimal interfaces.</p>
+                            </details>
+                        </li>
+
+                        <li>
+                            <details>
+                            <summary><strong>Indirect Ecosystem Management</strong></summary>
+                            <p>Unlike simulations where players control species directly, Orb.Farm only allows users to influence the environment, requiring more abstract thinking to maintain balance.</p>
+                            </details>
+                        </li>
+
+                        <li>
+                            <details>
+                            <summary><strong>Simplified but Functional Chemistry & Day-Night Cycle</strong></summary>
+                            <p>Oxygen and CO₂ levels are visually tracked in real time, and although simplified, they have direct effects on life and decay—an elegant representation of complex systems through minimal data.</p>
+                            </details>
+                        </li>
+
+                        <li>
+                            <details>
+                            <summary><strong>Waste as a Physical Element</strong></summary>
+                            <p>Waste accumulates visibly and physically in the environment, sometimes getting trapped in corners or behind obstacles, which adds an extra layer of spatial problem-solving not common in most A-Life simulators.</p>
+                            </details>
+                        </li>
                         </ul>
+
                      </div>
+                <div class="gif-bar">
+                    <img src="daphniaAlpha.gif" alt="gif1">
+                    <img src="daphniaAlpha.gif" class="flipped" alt="gif2">
+                 </div>
                 <div class="status-bar">
                     <p class="status-bar-field">By Uma Bridges</p>
                     <p class="status-bar-field">RMIT</p>
@@ -193,7 +352,7 @@
             </div>
         </div>
         <!-- MISSING FEAUTURES -->
-        <div class="item item7">
+        <div class="item item8">
             <div class="window">
                 <div class="title-bar">
                     <div class="title-bar-text"> ORB.Farm - Missing or Expected Features </div>
@@ -211,12 +370,112 @@
                             <li><strong>No Progression or Unlockable Tools</strong> – The game provides all tools from the start, with no sense of progress or development over time.</li>
                         </ul>
                      </div>
+                <div class="gif-bar">
+                    <img src="daphniaAlpha.gif" alt="gif1">
+                    <img src="daphniaAlpha.gif" class="flipped" alt="gif2">
+                </div>
                 <div class="status-bar">
                     <p class="status-bar-field">By Uma Bridges</p>
                     <p class="status-bar-field">RMIT</p>
                     <p class="status-bar-field">Bachelor of Design (Digital Media)</p>
                 </div>
             </div>
+        </div>  
+        <!-- TARGET AUDIENCE -->
+        <div class="item item9">
+            <div class="window">
+                <div class="title-bar">
+                    <div class="title-bar-text"> ORB.Farm - Target Audience & Niche </div>
+                </div>
+                    <div class="window-body">
+                        <iframe width="610" height="350" src="https://www.youtube.com/embed/3OG5jyRGhLg?si=1FXw94ETXUZzKGzC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <p> The creator of Orb.Farm, Max Bittker, has stated that one source of inspiration was the YouTube channel Life in Jars, which documents the process of building and maintaining real-world natural saltwater ecospheres. This reflects a broader online and offline community of ecosphere enthusiasts, indicating that Orb.Farm is tailored toward a niche group interested in ecosystem balance, closed-loop environments, and life-in-a-jar experiments.</p>
+                        <p> Orb.Farm is designed for casual users, science enthusiasts, and digital toy hobbyists, offering a relaxing space to observe and experiment with artificial ecosystems. Its click-based interface, lack of objectives, and simplified simulation mechanics suggest it's intended for users who enjoy interactive, self-guided experiences rather than competitive or narrative-driven games.</p>
+                    </div>
+                <div class="gif-bar">
+                    <img src="daphniaAlpha.gif" alt="gif1">
+                    <img src="daphniaAlpha.gif" class="flipped" alt="gif2">
+                </div>
+                <div class="status-bar">
+                    <p class="status-bar-field">By Uma Bridges</p>
+                    <p class="status-bar-field">RMIT</p>
+                    <p class="status-bar-field">Bachelor of Design (Digital Media)</p>
+                </div>
+            </div>
+        </div>
+   <!-- PAIN POINTS -->
+        <div class="item item10">
+            <div class="window">
+                <div class="title-bar">
+                    <div class="title-bar-text">ORB.Farm - Pain Points & Frustrations</div>
+                </div>
+                    <div class="window-body">
+                        <h4>Pain Points and Frustrations with ORB.Farm:</h4>
+                        <img src="co2.gif" alt="co2" style="width: 100%; margin-top: 10px;">
+                         <ul>
+                             <li>Oxygen drops are clearly shown, but the exact cause is often unclear, forcing the player to troubleshoot blindly. </li>
+                             <li>The pixel art style can make small details difficult to see, such as waste particles or tiny organisms</li>
+                             <li>The clear tool is imprecise, often deleting everything around the cursor—including organisms, water, and tank walls—when trying to clean small areas.</li>
+                        </ul>
+                        <br>
+                    </div>
+                <div class="gif-bar">
+                    <img src="daphniaAlpha.gif" alt="gif1">
+                    <img src="daphniaAlpha.gif" class="flipped" alt="gif2">
+                </div>
+                <div class="status-bar">
+                    <p class="status-bar-field">By Uma Bridges</p>
+                    <p class="status-bar-field">RMIT</p>
+                    <p class="status-bar-field">Bachelor of Design (Digital Media)</p>
+                </div>
+            </div>
+        </div>
+        <!-- ENJOYABLE ASPECTS -->
+        <div class="item item11">
+            <div class="window">
+                <div class="title-bar">
+                    <div class="title-bar-text">ORB.Farm - Enjoyable Aspects</div>
+                </div>
+                <div class="window-body">
+                    <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExemowdzRvZm11cnJkNXlsMGE5emUwODdtMXBzY252M201OWk1dGUxcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/nvGcd2098ur5EjApNe/giphy.gif" alt="daphnia" style="width: 100%; margin-top: 10px;">
+                    <h3>Enjoyable Aspects of ORB.Farm:</h3>
+                    <ul>
+                        <li>Figuring out how to keep organisms alive was engaging and felt like solving a puzzle.  </li>
+                        <li>I spent more time than expected experimenting, which shows the experience was immersive.</li>
+                        <li>The process of stabilising the ecosystem felt satisfying after trial and error.</li>
+                        <li>It reminded me of raising Sea Monkeys, creating a nostalgic connection to real-life mini ecosystems.</li>
+                    </ul>
+                </div>
+                <div class="gif-bar">
+                    <img src="daphniaAlpha.gif" alt="gif1">
+                    <img src="daphniaAlpha.gif" class="flipped" alt="gif2">
+                </div>
+                <div class="status-bar">
+                    <p class="status-bar-field">By Uma Bridges</p>
+                    <p class="status-bar-field">RMIT</p>
+                    <p class="status-bar-field">Bachelor of Design (Digital Media)</p>
+                </div>
+            </div>
+        </div>
+        <!-- VIDEO -->
+        <div class="item item12">
+            <div class="window">
+                <div class="title-bar">
+                    <div class="title-bar-text">ORB.Farm - Intial Game Play (Video)</div>
+                </div>
+                <div class="window-body">
+                    <p>capture and present your interaction with the software</p>
+            </div>
+            <div class="gif-bar">
+                <img src="daphniaAlpha.gif" alt="gif1">
+                <img src="daphniaAlpha.gif" class="flipped" alt="gif2">
+            </div>
+                <div class="status-bar">
+                    <p class="status-bar-field">By Uma Bridges</p>
+                    <p class="status-bar-field">RMIT</p>
+                    <p class="status-bar-field">Bachelor of Design (Digital Media)</p>
+                </div>
+            </div>  
         </div>
 
 </body>
